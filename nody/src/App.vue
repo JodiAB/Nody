@@ -30,7 +30,7 @@ export default {
   body{
     width: 100%;
     height: 100vh;
-    overflow: hidden;
+    
   }
   #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -127,11 +127,11 @@ export default {
   }
   .stars {
     background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
-    z-index:-1;
+    z-index:-100;
   }
   .twinkling{
     background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
-    z-index:-1;
+    z-index:-100;
     -moz-animation:move-twink-back 200s linear infinite;
     -ms-animation:move-twink-back 200s linear infinite;
     -o-animation:move-twink-back 200s linear infinite;
@@ -141,7 +141,7 @@ export default {
   .clouds{
     filter: grayscale(100%);
       background:transparent url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat top center;
-      z-index:-1;
+      z-index:-100;
     -moz-animation:move-clouds-back 200s linear infinite;
     -ms-animation:move-clouds-back 200s linear infinite;
     -o-animation:move-clouds-back 200s linear infinite;
