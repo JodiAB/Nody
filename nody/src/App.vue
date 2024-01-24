@@ -1,11 +1,7 @@
 <template>
-  <div class="fire">
     <nav> <Navi /></nav>
-   
-  
     <router-view />
     <Spinner />
-    <Footer />
     <div class="stars"></div>
     <div class="twinkling"></div>
     <div class="clouds"></div>
