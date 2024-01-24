@@ -19,10 +19,14 @@
   
   <style scoped>
   nav {
-    
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
     background-color: transparent;
-    text-align: right;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    gap: 6rem;
   }
   
   nav a {
